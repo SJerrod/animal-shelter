@@ -34,3 +34,10 @@ h1 {
 .fish h2 {
   background: teal;
 }
+
+@media screen and (max-width: 1000px) {
+  .column {
+    background-color: orangered;
+    color: ghostwhite;
+  }   
+}
