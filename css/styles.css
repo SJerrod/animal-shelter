@@ -48,3 +48,11 @@ h1 {
     color: darkcyan;
   }   
 }
+
+@media all and (max-width: 800px) {
+  .column {
+    display: block;
+    float: none;
+    width: 100%;
+  }   
+}
