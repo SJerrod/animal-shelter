@@ -11,3 +11,26 @@ h1 {
   width: 23%;
   border: 10px solid yellow;
 }
+.dog {
+  background-color: purple;
+  text-align: center;
+  float: left;
+  width: 23%;
+  border: 10px solid yellow;
+}
+
+.dog p {
+  color: yellow;
+}
+
+.cat p {
+  background: green;
+}
+
+.bird img {
+  border: 5px dotted brown;
+}
+
+.fish h2 {
+  background: teal;
+}
