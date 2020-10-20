@@ -12,7 +12,21 @@ h1 {
   border: 10px solid yellow;
 }
 
+.day .col-md-3 {
+  background-color: rgb(127, 127, 252);
+  color: black;
+  text-align: center;
+  float: left;
+  border: 10px solid rgb(223, 223, 0);
+}
 
+.night .col-md-3{
+  background-color: #383434;
+  color: #E1DAD9;
+  text-align: center;
+  float: left;
+  border: 10px solid yellow;
+}
 
 img {
   width: 100%;

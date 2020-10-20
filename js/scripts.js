@@ -3,13 +3,13 @@
 
 // User interface logic
 $(document).ready(function() {
-  $("button#day-mode").click(function() {
-    $(".initial").removeClass();
-    $(".initial").addClass("day");
+  $("button#day").click(function() {
+    $("body").removeClass();
+    $("body").addClass("day");
   });
 
-  $("button#night-mode").click(function() {
-    $(".initial").removeClass();
-    $(".initial").addClass("night");
+  $("button#night").click(function() {
+    $("body").removeClass();
+    $("body").addClass("night");
   });
 });
