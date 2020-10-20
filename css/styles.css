@@ -2,57 +2,19 @@ h1 {
   font-style: bold;
   background-color: green;
   text-align: center;
+  padding-bottom: 5px;
 }
 
-.column {
+.col-md-3 {
   background-color: blue;
   text-align: center;
   float: left;
-  width: 23%;
-  border: 10px solid yellow;
-}
-.dog {
-  background-color: purple;
-  text-align: center;
-  float: left;
-  width: 23%;
   border: 10px solid yellow;
 }
 
-.dog p {
-  color: yellow;
-}
 
-.cat p {
-  background: green;
-}
 
-.bird img {
-  border: 5px dotted brown;
-}
-
-.fish h2 {
-  background: teal;
-}
-
-@media screen and (max-width: 1000px) and (min-width: 700px) {
-  .column {
-    background-color: orangered;
-    color: ghostwhite;
-  }   
-}
-
-@media screen and (max-width: 699px) {
-  .column {
-    background-color: purple;
-    color: darkcyan;
-  }   
-}
-
-@media all and (max-width: 800px) {
-  .column {
-    display: block;
-    float: none;
-    width: 100%;
-  }   
+img {
+  width: 100%;
+  height: auto;
 }

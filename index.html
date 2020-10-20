@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-  <html>
+  <html lang="en">
     <head>
-      <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />
+      <script src="js/jquery-3.5.1.js"></script>
+      <script src="js/scripts.js"></script>
       <title>Animals-r-us</title>
     </head>
     <body>
       <h1> Types of animals</h1>
-        <div class="panel-body">
-          <div class="panel-heading">
-            <div class="column dog">
-              <h2>Dog</h2>
-              <img src="images/dog.jpg" alt="Picture of dog">
-              <p>Mans best friend</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="initial">
+                <h2 class= "dog">Dog</h2>
+                <img src="images/dog.jpg" alt="Picture of dog">
+                <p>Mans best friend</p>
+              </div>
             </div>
-            <div class="column cat">
-              <h2>Cat</h2>
-              <img src="images/cat.jpg" alt="Picture of cat">
-              <p>Little floofs</p>
+            <div class="col-md-3">
+              <div class="initial">
+                <h2>Cat</h2>
+                <img src="images/cat.jpg" alt="Picture of cat">
+                <p>Little floofs</p>
+              </div>
             </div>
-            <div class="column bird">
-              <h2>Bird</h2>
-              <img src="images/bird.jpg" alt="Picture of bird">
-              <p>Loud who wants this</p>
+            <div class="col-md-3">
+              <div class="initial">
+                <h2>Bird</h2>
+                <img src="images/bird.jpg" alt="Picture of bird">
+                <p>Loud who wants this</p>
+              </div>
             </div>
-            <div class="column fish">
-              <h2>Fish</h2>
-              <img src="images/fish.jpg" alt="Picture of fish">
-              <p>For serial killers</p>
+            <div class="col-md-3">
+              <div class="initial">
+                <h2>Fish</h2>
+                <img src="images/fish.jpg" alt="Picture of fish">
+                <p>For serial killers</p>
+              </div>
             </div>
           </div>
         </div>
+        <button class="btn btn-warning" id="day-mode">DayMode</button>
+        <button class="btn btn-dark" id="night-mode">NightMode</button>
     </body>
   </html>
